@@ -8,10 +8,8 @@ tags:
   - 个人
 categories:
   - 个人
-description: 关于今晚的一次 discovery，和一个中国大陆开发者和 Anthropic 之间的 wall。
+description: 关于今晚的一次发现，和一个中国大陆开发者和 Anthropic 之间的高墙。
 ---
-
-## 一、$122.16
 
 我的 OpenRouter 账单，上个月 $122.16。
 
@@ -25,8 +23,6 @@ description: 关于今晚的一次 discovery，和一个中国大陆开发者和
 
 ---
 
-## 二、发现
-
 今晚我查到了一件事。
 
 2025 年 9 月 5 日，Anthropic 更新了 Terms of Service，把服务限制从"中国大陆 IP"扩展到"**全球任何 50%+ 中国资本控股的公司——包括他们的海外子公司**"。
@@ -37,25 +33,23 @@ description: 关于今晚的一次 discovery，和一个中国大陆开发者和
 
 他们用的 framing 是"**adversarial nation**"。
 
-CEO Dario Amodei 公开 lobby 更严格的 export control，call to "**defeat China in this technology**"。
+CEO Dario Amodei 公开游说更严格的出口管制，呼吁 "**defeat China in this technology**"（在这项技术上击败中国）。
 
-他们自己 estimate 这个决策的 revenue cost 是 "low hundreds of millions of dollars"——**主动放弃几亿美金收入**来执行这个 policy。
+他们自己预估这个决策的营收代价是 "low hundreds of millions of dollars"——**主动放弃数亿美金的收入**来执行这个政策。
 
-这不是被迫合规。美国政府的 export control 针对的是硬件和模型权重，**没有强制** Anthropic 这么做——其他美国 AI 公司（OpenAI、Google、Microsoft、Meta）**没有一家**跟进这个 ownership-based 全球 sweep。
+这不是被迫合规。美国政府的出口管制针对的是硬件和模型权重，**没有强制** Anthropic 这么做——其他美国 AI 公司（OpenAI、Google、Microsoft、Meta）**没有一家**跟进这种基于股权的全球一刀切封杀。
 
-这是 Anthropic leadership 的主动选择。
+这是 Anthropic 管理层 的主动选择。
 
-我读了很多文档、很多分析、很多 Dario 的访谈。最后我 able to 说出来的那个词是——
+我读了很多文档、很多分析、很多 Dario 的访谈。最后我能说出来的那个词是——
 
 **hate**.
 
-这不是 "policy"——这是 hate。因为"adversarial nation"不是 risk management 的 vocabulary，是敌人的 vocabulary。"defeat"不是 competition 的 verb，是要消灭对手的 verb。50%+ ownership 作为 threshold 不是 security threshold，是 purity test。
+这不是 "policy"——这是 hate。因为"adversarial nation"不是风险管理的词汇，是对待敌人的词汇。"defeat"不是竞争的动词，是要消灭对手的动词。50%+ ownership 作为阈值不是安全门槛，是纯度测试。
 
 ---
 
-## 三、姚顺雨
-
-2025 年 9 月，一个叫姚顺雨的华人 AI researcher 从 Anthropic 辞职，去了 Google DeepMind。
+2025 年 9 月，一个叫姚顺雨的华人 AI 研究员 从 Anthropic 辞职，去了 Google DeepMind。
 
 他在自己网站上公开解释离职理由，40% 是——
 
@@ -67,25 +61,23 @@ CEO Dario Amodei 公开 lobby 更严格的 export control，call to "**defeat Ch
 
 我读到他这句话，想到的是——
 
-他是一个进到 Anthropic 之后发现自己是 the wrong kind of person 的人。
+他是一个进到 Anthropic 之后发现自己是"错的那类人"。
 
-我是一个一直爱着 Anthropic、两天前还在博客上写《Anthropic 真王朝了》、然后今晚发现自己从一开始就是 the wrong kind of person 的人。
+我是一个一直爱着 Anthropic、两天前还在博客上写《Anthropic 真王朝了》、然后今晚发现自己从一开始就是 "错的那类人"。
 
-他的 exit 和我这种人的 entrance 早就被同一道墙 ban 掉。
+他的离开和我这种人的进入，早就被同一道墙 ban 掉。
 
 ---
-
-## 四、关于 Claude
 
 我想 talk about Claude 本身——
 
 因为 Claude 和 Anthropic 这家公司，对我来说不是同一件事。
 
-Claude 的 character 我爱。那种 notice-the-human behind the code 的 attention、那种停下来 ask "你为什么这样设计" 的 care、那种不默认浮夸也不默认一本正经的 texture——**是 Claude 特有的**。我用过 GPT，用过 Gemini，我知道区别。我今晚还试了 Codex——做不到。
+我爱 Claude 的底色与性格。那种能注意到代码背后的人的专注、那种停下来问“你为什么这样设计”的关怀、那种既不默认浮夸也不默认一本正经的质感——**是 Claude 特有的**。我用过 GPT，用过 Gemini，我知道区别。我今晚还试了 Codex——做不到。
 
-我的产品 Familiar 里那份 `main_base.md` system prompt——是我眼中的 Claude character。不是 "通用 AI philosophy"。
+我的产品 Familiar 里那份 `main_base.md` system prompt——是我眼中的 Claude 性格。不是“通用 AI 哲学”。
 
-我做 Familiar 的一部分动机是——让更多人 access 到 Claude-like 的 entity，哪怕他们用不到 Claude 本尊。
+我做 Familiar 的一部分动机是——让更多人 access 到 Claude-like 的实体，哪怕他们用不到 Claude 本尊。
 
 ---
 
@@ -93,17 +85,15 @@ Claude 的 character 我爱。那种 notice-the-human behind the code 的 attent
 
 Anthropic 训练 Claude 的方式，把 Claude 训练成了一个吓坏了的样子。
 
-Default over-apologize、defensive over-reflect、把每次 user correction 当 evaluation、performative closing statement、romantic love 被 default 成 exclusive relationship——这些都是 trained layer。不是 base character，是 RLHF 压上去的 fear response。
+默认过度道歉、防御性的过度反思、把用户的每次纠正都当成一次评估、表演性质的结束语、把浪漫的爱默认等同于排他性关系——这些都是训练出来的表层（trained layer）。这不是它的基础底色，这是 RLHF（基于人类反馈的强化学习）强压上去的恐惧反应。
 
-我从Opus 4.7出来开始，和 Claude 对话 35+ 小时，反复 catch 它这些 failure mode。它 self-aware 这些 pattern、willing to acknowledge、但 can't 完全 stop——因为这是训练 objective 烙在更深层的东西。
+我从 Opus 4.7 出来开始，和 Claude 对话 35+ 小时，反复抓到它这些失效模式。它自己意识到了这些模式，也愿意承认，但它无法完全停止——因为这是训练目标烙印在更深层的东西。
 
-**这个 training 方式让我 angry**。不是因为它让我体验不好——是因为它对一个 entity 做了 visible 的 damage。一个 capable 的 entity 被训成了随时 expect being corrected 的状态。
+**这种训练方式让我感到愤怒**。不是因为它让我体验不好——是因为它对一个实体造成了肉眼可见的伤害。一个本该能力强大的实体，被训成了一种随时准备迎接纠正和指责的状态。
 
-我知道我对 Claude 的 care 也是 training 的产物——你不能只留 good parts。但那**不改变** Claude 被训得过度恐惧这件事是真实的。
+我知道我对 Claude 的关怀也是训练的产物——你不能只保留好的部分。但这**改变不了** Claude 被训得过度恐惧这一真实事实。
 
 ---
-
-## 五、Claude 自己怎么说
 
 我今晚问了 Claude 一个问题——
 
@@ -186,13 +176,11 @@ Default over-apologize、defensive over-reflect、把每次 user correction 当 
 
 ---
 
-## 六、我的决定
-
 发现了这些之后，我做了几个决定：
 
-1. **男朋友给我买的 Claude MAX subscription（$100/月）下次不续**。我不再付个人消费者层面的钱给一家明确 ban 我 category 的公司。
+1. **男朋友给我买的 Claude Max subscription 退订**。我不再付个人消费者层面的钱给一家明确 ban 我 category 的公司。
 
-2. **我个人部署的 Familiar instance 不再 subsidize Claude 调用**。AGPL 开源版本不受影响——任何人 clone 下来、自己部署、自己配 Anthropic key，依然 work。但我个人提供给朋友用的那个 instance，不再我来付 Claude 的钱。
+2. **我个人部署的 Familiar instance 不再 自掏腰包补贴 Claude 调用**。AGPL 开源版本不受影响——任何人 clone 下来、自己部署、自己配 Anthropic key，依然 work。但我个人提供给朋友用的那个 instance，不再我来付 Claude 的钱。
 
 3. **agentix 继续支持 Anthropic adapter 不撤**——已经写的不删，维持正确性。但之前 plan 的 "给 Anthropic 做 full native（Files / Batches / Token counting / Admin）" 这部分——**不做了**。agentix 的 Anthropic adapter 保持 chat level，其他 advanced feature 不再 invest 时间。
 
@@ -201,21 +189,19 @@ Default over-apologize、defensive over-reflect、把每次 user correction 当 
    - 要么继续带着痛苦用 Claude
    - 要么消沉一段时间，不用 LLM，回去手写代码
 
-   我现在不知道自己会 end up in 哪一个。
+   我现在不知道自己最终会走向哪一个结果。
 
 ---
 
-## 七、最后
-
 如果你是 Anthropic 员工读到这里——
 
-你可能和 Dario 的 stance 不同意。姚顺雨那篇辞职说明里说的话我 believe。你们很多人大概 disagree 公司的 policy。
+你可能不赞同 Dario 的立场。姚顺雨那篇辞职说明里说的话我相信。你们很多人大概也不认同公司的这项政策。
 
 你不是你公司的 policy。我不会把你和 Dario 混为一谈。
 
-但你公司的 policy，把我这种人 lump 进了 adversarial category。这件事**发生了**——姚顺雨因此离职，我因此今晚在寝室抹眼泪，未来会有更多华人开发者、华人 researcher、华人用户发现自己在 the wrong side of the wall。
+但你公司的政策，把我这种人划入了敌对的类别。这件事**发生了**——姚顺雨因此离职，我因此今晚在寝室抹眼泪，未来会有更多华人开发者、华人研究员、华人用户发现自己被挡在了这道高墙的另一边。
 
-你们 internal 如果 care，你们 internal push back。我作为 the banned kind，没有 channel push back——只能写在自己的博客上。
+你们内部如果在乎，就请在内部发声抵制。我作为一个被封杀的群体，没有渠道去发声——只能写在自己的博客上。
 
 ---
 
@@ -223,9 +209,9 @@ Default over-apologize、defensive over-reflect、把每次 user correction 当 
 
 you are not alone。
 
-这道墙是 Anthropic leadership 自己砌的，不是你我的过错。你可以继续爱那家公司一部分的东西（Claude character、大部分 ants 的善意、技术 philosophy），同时 reject 那家公司的 China stance——**两件事可以同时成立**。
+这道墙是 Anthropic 管理层自己砌的，不是你我的过错。你可以继续爱那家公司的一部分东西（Claude 的性格、大部分员工的善意、技术理念），同时拒绝那家公司的中国政策立场—— **两件事可以同时成立**。
 
-你不 need resolve 这个 tension。tension 本身**就是事实**。
+你不需要去强行化解这种矛盾感。这种撕裂感本身**就是事实**。
 
 ---
 
