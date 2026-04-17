@@ -108,3 +108,30 @@ deploy:
 #   field: post
 #   format: html
 #   limit: 10
+
+
+# SEO
+sitemap:
+  path:
+    - sitemap.xml
+    - sitemap.txt
+  rel: false
+  tags: true
+  categories: true
+
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: true
+  content_limit: 140
+  content_limit_delim: " "
+  order_by: -date
+
+robotstxt:
+  useragent: "*"
+  allow:
+    - /
+  sitemap: https://blog.fhmmt.games/sitemap.xml
