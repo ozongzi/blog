@@ -5,15 +5,15 @@
 # Site
 title: 粽子&粉红毛毛兔的博客
 subtitle: ""
-description: ""
-keywords: "C,Rust,Embedded"
+description: "一些关于技术、设计与生活的记录"
+keywords: "Rust,AI Agent,Game Design,Compiler,Embedded"
 author: 粽子&粉红毛毛兔
 language: zh-CN
-timezone: ""
+timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://blog.fhmmt.games
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
