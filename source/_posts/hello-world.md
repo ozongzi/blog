@@ -1,1 +1,0 @@
-删除默认 hello-world 文件。
