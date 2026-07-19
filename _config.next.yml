@@ -1,0 +1,17 @@
+# NeXT 主题站点级覆盖配置（与 themes/next/_config.yml 深度合并）
+
+custom_file_path:
+  head: source/_data/head.njk
+
+font:
+  enable: true
+
+  # 正文 / 全局:霞鹜文楷 Screen,西文回退 Georgia
+  global:
+    external: false
+    family: '"LXGW WenKai Screen", Georgia'
+
+  # 代码:Fira Code
+  codes:
+    external: false
+    family: '"Fira Code"'
