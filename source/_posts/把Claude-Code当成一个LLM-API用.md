@@ -7,7 +7,6 @@ tags:
   - agentix
 categories:
   - 技术
-description: agentix 的 claude_code 策略：桩工具、MITM 回放代理，以及一场和 prompt cache 的拉锯战。
 ---
 
 agentix 是一个 Rust 库，作用是把各家 LLM 的 API 抹平成同一套接口：给它消息和工具定义，它吐回一条 `LlmEvent` 流。Anthropic、OpenAI、Gemini、DeepSeek、Kimi 这些都是标准做法，读 API 文档，写 HTTP 客户端，完事。
