@@ -9,9 +9,11 @@ categories:
   - 技术
 ---
 
-<!--more-->
 
 agentix 是一个 Rust 库，作用是把各家 LLM 的 API 抹平成同一套接口：给它消息和工具定义，它吐回一条 `LlmEvent` 流。Anthropic、OpenAI、Gemini、DeepSeek、Kimi 这些都是标准做法，读 API 文档，写 HTTP 客户端，完事。
+
+
+<!--more-->
 
 麻烦的是 Claude Code。Claude 订阅里的额度只能通过 `claude` 这个 CLI 用。我想让它也变成 agentix 里的一个普通 provider——和其他家用同一个接口，同一套工具分发逻辑。
 
