@@ -1,5 +1,6 @@
 ---
 title: 我的UI设计观
+mathjax: true
 date: 2026-07-26 17:15:00
 tags:
   - UI

@@ -3,6 +3,11 @@
 custom_file_path:
   head: source/_data/head.njk
 
+math:
+  every_page: false
+  mathjax:
+    enable: true
+
 font:
   enable: true
 
